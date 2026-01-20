@@ -1,0 +1,2456 @@
+[
+  {
+    "mo_group": "B_ACNTB_BMNN-C",
+    "mo": "B_ACNTB_BMNN",
+    "mo_group_name": "Acinetobacter baumannii complex",
+    "mo_name": "Acinetobacter baumannii"
+  },
+  {
+    "mo_group": "B_ACNTB_BMNN-C",
+    "mo": "B_ACNTB_CLCC",
+    "mo_group_name": "Acinetobacter baumannii complex",
+    "mo_name": "Acinetobacter calcoaceticus"
+  },
+  {
+    "mo_group": "B_ACNTB_BMNN-C",
+    "mo": "B_ACNTB_LCTC",
+    "mo_group_name": "Acinetobacter baumannii complex",
+    "mo_name": "Acinetobacter dijkshoorniae"
+  },
+  {
+    "mo_group": "B_ACNTB_BMNN-C",
+    "mo": "B_ACNTB_NSCM",
+    "mo_group_name": "Acinetobacter baumannii complex",
+    "mo_name": "Acinetobacter nosocomialis"
+  },
+  {
+    "mo_group": "B_ACNTB_BMNN-C",
+    "mo": "B_ACNTB_PITT",
+    "mo_group_name": "Acinetobacter baumannii complex",
+    "mo_name": "Acinetobacter pittii"
+  },
+  {
+    "mo_group": "B_ACNTB_BMNN-C",
+    "mo": "B_ACNTB_SFRT",
+    "mo_group_name": "Acinetobacter baumannii complex",
+    "mo_name": "Acinetobacter seifertii"
+  },
+  {
+    "mo_group": "B_BCTRD_FRGL-C",
+    "mo": "B_BCTRD_FRGL",
+    "mo_group_name": "Bacteroides fragilis complex",
+    "mo_name": "Bacteroides fragilis"
+  },
+  {
+    "mo_group": "B_BCTRD_FRGL-C",
+    "mo": "B_BCTRD_OVTS",
+    "mo_group_name": "Bacteroides fragilis complex",
+    "mo_name": "Bacteroides ovatus"
+  },
+  {
+    "mo_group": "B_BCTRD_FRGL-C",
+    "mo": "B_BCTRD_THTT",
+    "mo_group_name": "Bacteroides fragilis complex",
+    "mo_name": "Bacteroides thetaiotaomicron"
+  },
+  {
+    "mo_group": "B_BCTRD_FRGL-C",
+    "mo": "B_PHCCL_VLGT",
+    "mo_group_name": "Bacteroides fragilis complex",
+    "mo_name": "Bacteroides vulgatus"
+  },
+  {
+    "mo_group": "B_BCTRD_FRGL-C",
+    "mo": "B_PRBCT_DSTS",
+    "mo_group_name": "Bacteroides fragilis complex",
+    "mo_name": "Parabacteroides distasonis"
+  },
+  {
+    "mo_group": "B_STRPT_HAEM",
+    "mo": "B_STRPT_AGLC",
+    "mo_group_name": "Beta-haemolytic Streptococcus",
+    "mo_name": "Streptococcus agalactiae"
+  },
+  {
+    "mo_group": "B_STRPT_HAEM",
+    "mo": "B_STRPT_ANGN",
+    "mo_group_name": "Beta-haemolytic Streptococcus",
+    "mo_name": "Streptococcus anginosus"
+  },
+  {
+    "mo_group": "B_STRPT_HAEM",
+    "mo": "B_STRPT_CANS",
+    "mo_group_name": "Beta-haemolytic Streptococcus",
+    "mo_name": "Streptococcus canis"
+  },
+  {
+    "mo_group": "B_STRPT_HAEM",
+    "mo": "B_STRPT_DYSG",
+    "mo_group_name": "Beta-haemolytic Streptococcus",
+    "mo_name": "Streptococcus dysgalactiae"
+  },
+  {
+    "mo_group": "B_STRPT_HAEM",
+    "mo": "B_STRPT_EQUI",
+    "mo_group_name": "Beta-haemolytic Streptococcus",
+    "mo_name": "Streptococcus equi"
+  },
+  {
+    "mo_group": "B_STRPT_HAEM",
+    "mo": "B_STRPT_HYNT",
+    "mo_group_name": "Beta-haemolytic Streptococcus",
+    "mo_name": "Streptococcus hyointestinalis"
+  },
+  {
+    "mo_group": "B_STRPT_HAEM",
+    "mo": "B_STRPT_INFN",
+    "mo_group_name": "Beta-haemolytic Streptococcus",
+    "mo_name": "Streptococcus infantarius"
+  },
+  {
+    "mo_group": "B_STRPT_HAEM",
+    "mo": "B_STRPT_LTTN",
+    "mo_group_name": "Beta-haemolytic Streptococcus",
+    "mo_name": "Streptococcus lutetiensis"
+  },
+  {
+    "mo_group": "B_STRPT_HAEM",
+    "mo": "B_STRPT_PRCN",
+    "mo_group_name": "Beta-haemolytic Streptococcus",
+    "mo_name": "Streptococcus porcinus"
+  },
+  {
+    "mo_group": "B_STRPT_HAEM",
+    "mo": "B_STRPT_PYGN",
+    "mo_group_name": "Beta-haemolytic Streptococcus",
+    "mo_name": "Streptococcus pyogenes"
+  },
+  {
+    "mo_group": "B_STRPT_HAEM",
+    "mo": "B_STRPT_SLVR",
+    "mo_group_name": "Beta-haemolytic Streptococcus",
+    "mo_name": "Streptococcus salivarius"
+  },
+  {
+    "mo_group": "B_STRPT_HAEM",
+    "mo": "B_STRPT_SLVR",
+    "mo_group_name": "Beta-haemolytic Streptococcus",
+    "mo_name": "Streptococcus salivarius salivarius"
+  },
+  {
+    "mo_group": "B_STRPT_HAEM",
+    "mo": "B_STRPT_THRM",
+    "mo_group_name": "Beta-haemolytic Streptococcus",
+    "mo_name": "Streptococcus salivarius thermophilus"
+  },
+  {
+    "mo_group": "B_STRPT_HAEM",
+    "mo": "B_STRPT_SNGN",
+    "mo_group_name": "Beta-haemolytic Streptococcus",
+    "mo_name": "Streptococcus sanguinis"
+  },
+  {
+    "mo_group": "B_BRKHL_CEPC-C",
+    "mo": "B_BRKHL_AMBF",
+    "mo_group_name": "Burkholderia cepacia complex",
+    "mo_name": "Burkholderia ambifaria"
+  },
+  {
+    "mo_group": "B_BRKHL_CEPC-C",
+    "mo": "B_BRKHL_ANTH",
+    "mo_group_name": "Burkholderia cepacia complex",
+    "mo_name": "Burkholderia anthina"
+  },
+  {
+    "mo_group": "B_BRKHL_CEPC-C",
+    "mo": "B_BRKHL_CNCP",
+    "mo_group_name": "Burkholderia cepacia complex",
+    "mo_name": "Burkholderia cenocepacia"
+  },
+  {
+    "mo_group": "B_BRKHL_CEPC-C",
+    "mo": "B_BRKHL_CEPC",
+    "mo_group_name": "Burkholderia cepacia complex",
+    "mo_name": "Burkholderia cepacia"
+  },
+  {
+    "mo_group": "B_BRKHL_CEPC-C",
+    "mo": "B_BRKHL_DOLS",
+    "mo_group_name": "Burkholderia cepacia complex",
+    "mo_name": "Burkholderia dolosa"
+  },
+  {
+    "mo_group": "B_BRKHL_CEPC-C",
+    "mo": "B_BRKHL_MLTV",
+    "mo_group_name": "Burkholderia cepacia complex",
+    "mo_name": "Burkholderia multivorans"
+  },
+  {
+    "mo_group": "B_BRKHL_CEPC-C",
+    "mo": "B_BRKHL_PYRR",
+    "mo_group_name": "Burkholderia cepacia complex",
+    "mo_name": "Burkholderia pyrrocinia"
+  },
+  {
+    "mo_group": "B_BRKHL_CEPC-C",
+    "mo": "B_BRKHL_STBL",
+    "mo_group_name": "Burkholderia cepacia complex",
+    "mo_name": "Burkholderia stabilis"
+  },
+  {
+    "mo_group": "B_BRKHL_CEPC-C",
+    "mo": "B_BRKHL_UBNN",
+    "mo_group_name": "Burkholderia cepacia complex",
+    "mo_name": "Burkholderia ubonensis"
+  },
+  {
+    "mo_group": "B_BRKHL_CEPC-C",
+    "mo": "B_BRKHL_VTNM",
+    "mo_group_name": "Burkholderia cepacia complex",
+    "mo_name": "Burkholderia vietnamiensis"
+  },
+  {
+    "mo_group": "B_CTRBC_AMLN-C",
+    "mo": "B_CTRBC_AMLN",
+    "mo_group_name": "Citrobacter amalonaticus complex",
+    "mo_name": "Citrobacter amalonaticus"
+  },
+  {
+    "mo_group": "B_CTRBC_AMLN-C",
+    "mo": "B_CTRBC_FRMR",
+    "mo_group_name": "Citrobacter amalonaticus complex",
+    "mo_name": "Citrobacter farmeri"
+  },
+  {
+    "mo_group": "B_CTRBC_AMLN-C",
+    "mo": "B_CTRBC_SDLK",
+    "mo_group_name": "Citrobacter amalonaticus complex",
+    "mo_name": "Citrobacter sedlakii"
+  },
+  {
+    "mo_group": "B_CTRBC_FRND-C",
+    "mo": "B_CTRBC_BRAK",
+    "mo_group_name": "Citrobacter freundii complex",
+    "mo_name": "Citrobacter braakii"
+  },
+  {
+    "mo_group": "B_CTRBC_FRND-C",
+    "mo": "B_CTRBC_FRND",
+    "mo_group_name": "Citrobacter freundii complex",
+    "mo_name": "Citrobacter freundii"
+  },
+  {
+    "mo_group": "B_CTRBC_FRND-C",
+    "mo": "B_CTRBC_GLLN",
+    "mo_group_name": "Citrobacter freundii complex",
+    "mo_name": "Citrobacter gillenii"
+  },
+  {
+    "mo_group": "B_CTRBC_FRND-C",
+    "mo": "B_CTRBC_MRLN",
+    "mo_group_name": "Citrobacter freundii complex",
+    "mo_name": "Citrobacter murliniae"
+  },
+  {
+    "mo_group": "B_CTRBC_FRND-C",
+    "mo": "B_CTRBC_PRTC",
+    "mo_group_name": "Citrobacter freundii complex",
+    "mo_name": "Citrobacter portucalensis"
+  },
+  {
+    "mo_group": "B_CTRBC_FRND-C",
+    "mo": "B_CTRBC_SDLK",
+    "mo_group_name": "Citrobacter freundii complex",
+    "mo_name": "Citrobacter sedlakii"
+  },
+  {
+    "mo_group": "B_CTRBC_FRND-C",
+    "mo": "B_CTRBC_WRKM",
+    "mo_group_name": "Citrobacter freundii complex",
+    "mo_name": "Citrobacter werkmanii"
+  },
+  {
+    "mo_group": "B_CTRBC_FRND-C",
+    "mo": "B_CTRBC_YONG",
+    "mo_group_name": "Citrobacter freundii complex",
+    "mo_name": "Citrobacter youngae"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_ARGN",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus argensis"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_ARLT",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus arlettae"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_ARCL",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus auricularis"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_BRLS",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus borealis"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_CAEL",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus caeli"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_CLDN",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus caledonicus"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_CANS",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus canis"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_CPTS",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus capitis"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_CAPR",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus caprae"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_CRNS",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus carnosus"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_CRNS",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus carnosus carnosus"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_CRNS",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus carnosus utilis"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_CASE",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus casei"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_MCRCC_CSLY",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus caseolyticus"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_CHRM",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus chromogenes"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_COHN",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus cohnii"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_COHN",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus cohnii cohnii"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_URLY",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus cohnii urealyticum"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_URLY",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus cohnii urealyticus"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_CNDM",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus condimenti"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_CRCL",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus croceilyticus"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_DBCK",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus debuckii"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_DVRS",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus devriesei"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_DRRL",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus durrellii"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_EDPH",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus edaphicus"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_EPDR",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus epidermidis"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_EQRM",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus equorum"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_FELS",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus felis"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_FLRT",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus fleurettii"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_GLLN",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus gallinarum"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_HMLY",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus haemolyticus"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_HMNS",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus hominis"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_PTRS",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus jettensis"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_KLOS",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus kloosii"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_LNTS",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus lentus"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_LLYD",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus lloydii"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_LGDN",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus lugdunensis"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_MSSL",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus massiliensis"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_MCRT",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus microti"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_MUSC",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus muscae"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_NPLN",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus nepalensis"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_PSTR",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus pasteuri"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_PTRS",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus petrasii"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_CRCL",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus petrasii croceilyticus"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_PTRS",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus petrasii jettensis"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_PTRS",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus petrasii petrasii"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_PRGN",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus petrasii pragensis"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_PTTN",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus pettenkoferi"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_PSCF",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus piscifermentans"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_PRGN",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus pragensis"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_PSDX",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus pseudoxylosus"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_VTLN",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus pulvereri"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_RATT",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus ratti"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_RSTR",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus rostri"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_SCCH",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus saccharolyticus"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_SPRP",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus saprophyticus"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_SPRP",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus saprophyticus bovis"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_SPRP",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus saprophyticus saprophyticus"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_SCHL",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus schleiferi"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_CGLN",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus schleiferi coagulans"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_SCHL",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus schleiferi schleiferi"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_SCIR",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus sciuri"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_SCIR",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus sciuri carnaticus"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_LNTS",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus sciuri lentus"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_SCIR",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus sciuri rodentium"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_SCIR",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus sciuri sciuri"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_SMLN",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus simulans"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_STPN",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus stepanovicii"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_SCCN",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus succinus"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_CASE",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus succinus casei"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_SCCN",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus succinus succinus"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_TWNN",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus taiwanensis"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_URLYT",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus urealyticus"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_URLY",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus ureilyticus"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_VRTR",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus veratri"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_VTLN",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus vitulinus"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_VTLN",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus vitulus"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_WRNR",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus warneri"
+  },
+  {
+    "mo_group": "B_STPHY_CONS",
+    "mo": "B_STPHY_XYLS",
+    "mo_group_name": "Coagulase-negative Staphylococcus (CoNS)",
+    "mo_name": "Staphylococcus xylosus"
+  },
+  {
+    "mo_group": "B_STPHY_COPS",
+    "mo": "B_STPHY_AGNT",
+    "mo_group_name": "Coagulase-positive Staphylococcus (CoPS)",
+    "mo_name": "Staphylococcus agnetis"
+  },
+  {
+    "mo_group": "B_STPHY_COPS",
+    "mo": "B_STPHY_GNTS",
+    "mo_group_name": "Coagulase-positive Staphylococcus (CoPS)",
+    "mo_name": "Staphylococcus argenteus"
+  },
+  {
+    "mo_group": "B_STPHY_COPS",
+    "mo": "B_STPHY_CGLN",
+    "mo_group_name": "Coagulase-positive Staphylococcus (CoPS)",
+    "mo_name": "Staphylococcus coagulans"
+  },
+  {
+    "mo_group": "B_STPHY_COPS",
+    "mo": "B_STPHY_CRNB",
+    "mo_group_name": "Coagulase-positive Staphylococcus (CoPS)",
+    "mo_name": "Staphylococcus cornubiensis"
+  },
+  {
+    "mo_group": "B_STPHY_COPS",
+    "mo": "B_STPHY_DLPH",
+    "mo_group_name": "Coagulase-positive Staphylococcus (CoPS)",
+    "mo_name": "Staphylococcus delphini"
+  },
+  {
+    "mo_group": "B_STPHY_COPS",
+    "mo": "B_STPHY_HYCS",
+    "mo_group_name": "Coagulase-positive Staphylococcus (CoPS)",
+    "mo_name": "Staphylococcus hyicus"
+  },
+  {
+    "mo_group": "B_STPHY_COPS",
+    "mo": "B_STPHY_CHRM",
+    "mo_group_name": "Coagulase-positive Staphylococcus (CoPS)",
+    "mo_name": "Staphylococcus hyicus chromogenes"
+  },
+  {
+    "mo_group": "B_STPHY_COPS",
+    "mo": "B_STPHY_HYCS",
+    "mo_group_name": "Coagulase-positive Staphylococcus (CoPS)",
+    "mo_name": "Staphylococcus hyicus hyicus"
+  },
+  {
+    "mo_group": "B_STPHY_COPS",
+    "mo": "B_STPHY_INTR",
+    "mo_group_name": "Coagulase-positive Staphylococcus (CoPS)",
+    "mo_name": "Staphylococcus intermedius"
+  },
+  {
+    "mo_group": "B_STPHY_COPS",
+    "mo": "B_STPHY_LUTR",
+    "mo_group_name": "Coagulase-positive Staphylococcus (CoPS)",
+    "mo_name": "Staphylococcus lutrae"
+  },
+  {
+    "mo_group": "B_STPHY_COPS",
+    "mo": "B_STPHY_PSDN",
+    "mo_group_name": "Coagulase-positive Staphylococcus (CoPS)",
+    "mo_name": "Staphylococcus pseudintermedius"
+  },
+  {
+    "mo_group": "B_STPHY_COPS",
+    "mo": "B_STPHY_RTRD",
+    "mo_group_name": "Coagulase-positive Staphylococcus (CoPS)",
+    "mo_name": "Staphylococcus roterodami"
+  },
+  {
+    "mo_group": "B_STPHY_COPS",
+    "mo": "B_STPHY_CGLN",
+    "mo_group_name": "Coagulase-positive Staphylococcus (CoPS)",
+    "mo_name": "Staphylococcus schleiferi coagulans"
+  },
+  {
+    "mo_group": "B_STPHY_COPS",
+    "mo": "B_STPHY_SCHW",
+    "mo_group_name": "Coagulase-positive Staphylococcus (CoPS)",
+    "mo_name": "Staphylococcus schweitzeri"
+  },
+  {
+    "mo_group": "B_STPHY_COPS",
+    "mo": "B_STPHY_SIMI",
+    "mo_group_name": "Coagulase-positive Staphylococcus (CoPS)",
+    "mo_name": "Staphylococcus simiae"
+  },
+  {
+    "mo_group": "B_STPHY_COPS",
+    "mo": "B_STPHY_SNGP",
+    "mo_group_name": "Coagulase-positive Staphylococcus (CoPS)",
+    "mo_name": "Staphylococcus singaporensis"
+  },
+  {
+    "mo_group": "B_CORYNF",
+    "mo": "B_ARCNB",
+    "mo_group_name": "Coryneform bacterium",
+    "mo_name": "Arcanobacterium"
+  },
+  {
+    "mo_group": "B_CORYNF",
+    "mo": "B_ARCNB_HMLY",
+    "mo_group_name": "Coryneform bacterium",
+    "mo_name": "Arcanobacterium haemolyticum"
+  },
+  {
+    "mo_group": "B_CORYNF",
+    "mo": "B_BCTRM",
+    "mo_group_name": "Coryneform bacterium",
+    "mo_name": "Brevibacterium"
+  },
+  {
+    "mo_group": "B_CORYNF",
+    "mo": "B_BCTRM_CASE",
+    "mo_group_name": "Coryneform bacterium",
+    "mo_name": "Brevibacterium casei"
+  },
+  {
+    "mo_group": "B_CORYNF",
+    "mo": "B_BCTRM_EPDR",
+    "mo_group_name": "Coryneform bacterium",
+    "mo_name": "Brevibacterium epidermidis"
+  },
+  {
+    "mo_group": "B_CORYNF",
+    "mo": "B_BCTRM_MCBR",
+    "mo_group_name": "Coryneform bacterium",
+    "mo_name": "Brevibacterium mcbrellneri"
+  },
+  {
+    "mo_group": "B_CORYNF",
+    "mo": "B_CLLLM",
+    "mo_group_name": "Coryneform bacterium",
+    "mo_name": "Cellulomonas"
+  },
+  {
+    "mo_group": "B_CORYNF",
+    "mo": "B_CLLLSM",
+    "mo_group_name": "Coryneform bacterium",
+    "mo_name": "Cellulosimicrobium"
+  },
+  {
+    "mo_group": "B_CORYNF",
+    "mo": "B_CLLLSM_CLLL",
+    "mo_group_name": "Coryneform bacterium",
+    "mo_name": "Cellulosimicrobium cellulans"
+  },
+  {
+    "mo_group": "B_CORYNF",
+    "mo": "B_CRYNB",
+    "mo_group_name": "Coryneform bacterium",
+    "mo_name": "Corynebacterium"
+  },
+  {
+    "mo_group": "B_CORYNF",
+    "mo": "B_CRYNB_ACCL",
+    "mo_group_name": "Coryneform bacterium",
+    "mo_name": "Corynebacterium accolens"
+  },
+  {
+    "mo_group": "B_CORYNF",
+    "mo": "B_CRYNB_AFRM",
+    "mo_group_name": "Coryneform bacterium",
+    "mo_name": "Corynebacterium afermentans"
+  },
+  {
+    "mo_group": "B_CORYNF",
+    "mo": "B_CRYNB_AMYC",
+    "mo_group_name": "Coryneform bacterium",
+    "mo_name": "Corynebacterium amycolatum"
+  },
+  {
+    "mo_group": "B_CORYNF",
+    "mo": "B_CRYNB_ARGN",
+    "mo_group_name": "Coryneform bacterium",
+    "mo_name": "Corynebacterium argentoratense"
+  },
+  {
+    "mo_group": "B_CORYNF",
+    "mo": "B_CRYNB_ARMC",
+    "mo_group_name": "Coryneform bacterium",
+    "mo_name": "Corynebacterium aurimucosum"
+  },
+  {
+    "mo_group": "B_CORYNF",
+    "mo": "B_CRYNB_AURS",
+    "mo_group_name": "Coryneform bacterium",
+    "mo_name": "Corynebacterium auris"
+  },
+  {
+    "mo_group": "B_CORYNF",
+    "mo": "B_CRYNB_BOVS",
+    "mo_group_name": "Coryneform bacterium",
+    "mo_name": "Corynebacterium bovis"
+  },
+  {
+    "mo_group": "B_CORYNF",
+    "mo": "B_CRYNB_COYL",
+    "mo_group_name": "Coryneform bacterium",
+    "mo_name": "Corynebacterium coyleae"
+  },
+  {
+    "mo_group": "B_CORYNF",
+    "mo": "B_CRYNB_CYST",
+    "mo_group_name": "Coryneform bacterium",
+    "mo_name": "Corynebacterium cystitidis"
+  },
+  {
+    "mo_group": "B_CORYNF",
+    "mo": "B_CRYNB_DPHT",
+    "mo_group_name": "Coryneform bacterium",
+    "mo_name": "Corynebacterium diphtheriae"
+  },
+  {
+    "mo_group": "B_CORYNF",
+    "mo": "B_CRYNB_GLCR",
+    "mo_group_name": "Coryneform bacterium",
+    "mo_name": "Corynebacterium glucuronolyticum"
+  },
+  {
+    "mo_group": "B_CORYNF",
+    "mo": "B_CRYNB_GLTM",
+    "mo_group_name": "Coryneform bacterium",
+    "mo_name": "Corynebacterium glutamicum"
+  },
+  {
+    "mo_group": "B_CORYNF",
+    "mo": "B_CRYNB_JEKM",
+    "mo_group_name": "Coryneform bacterium",
+    "mo_name": "Corynebacterium jeikeium"
+  },
+  {
+    "mo_group": "B_CORYNF",
+    "mo": "B_CRYNB_KTSC",
+    "mo_group_name": "Coryneform bacterium",
+    "mo_name": "Corynebacterium kutscheri"
+  },
+  {
+    "mo_group": "B_CORYNF",
+    "mo": "B_CRYNB_MCGN",
+    "mo_group_name": "Coryneform bacterium",
+    "mo_name": "Corynebacterium macginleyi"
+  },
+  {
+    "mo_group": "B_CORYNF",
+    "mo": "B_CRYNB_MTRC",
+    "mo_group_name": "Coryneform bacterium",
+    "mo_name": "Corynebacterium matruchotii"
+  },
+  {
+    "mo_group": "B_CORYNF",
+    "mo": "B_CRYNB_MNTS",
+    "mo_group_name": "Coryneform bacterium",
+    "mo_name": "Corynebacterium minutissimum"
+  },
+  {
+    "mo_group": "B_CORYNF",
+    "mo": "B_CRYNB_MCFC",
+    "mo_group_name": "Coryneform bacterium",
+    "mo_name": "Corynebacterium mucifaciens"
+  },
+  {
+    "mo_group": "B_CORYNF",
+    "mo": "B_CRYNB_MYCT",
+    "mo_group_name": "Coryneform bacterium",
+    "mo_name": "Corynebacterium mycetoides"
+  },
+  {
+    "mo_group": "B_CORYNF",
+    "mo": "B_CRYNB_PLSM",
+    "mo_group_name": "Coryneform bacterium",
+    "mo_name": "Corynebacterium pilosum"
+  },
+  {
+    "mo_group": "B_CORYNF",
+    "mo": "B_CRYNB_PRPN",
+    "mo_group_name": "Coryneform bacterium",
+    "mo_name": "Corynebacterium propinquum"
+  },
+  {
+    "mo_group": "B_CORYNF",
+    "mo": "B_CRYNB_PSDD",
+    "mo_group_name": "Coryneform bacterium",
+    "mo_name": "Corynebacterium pseudodiphtheriticum"
+  },
+  {
+    "mo_group": "B_CORYNF",
+    "mo": "B_CRYNB_PSDT",
+    "mo_group_name": "Coryneform bacterium",
+    "mo_name": "Corynebacterium pseudotuberculosis"
+  },
+  {
+    "mo_group": "B_CORYNF",
+    "mo": "B_CRYNB_RENL",
+    "mo_group_name": "Coryneform bacterium",
+    "mo_name": "Corynebacterium renale"
+  },
+  {
+    "mo_group": "B_CORYNF",
+    "mo": "B_CRYNB_STRT",
+    "mo_group_name": "Coryneform bacterium",
+    "mo_name": "Corynebacterium striatum"
+  },
+  {
+    "mo_group": "B_CORYNF",
+    "mo": "B_CRYNB_ULCR",
+    "mo_group_name": "Coryneform bacterium",
+    "mo_name": "Corynebacterium ulcerans"
+  },
+  {
+    "mo_group": "B_CORYNF",
+    "mo": "B_CRYNB_URLY",
+    "mo_group_name": "Coryneform bacterium",
+    "mo_name": "Corynebacterium urealyticum"
+  },
+  {
+    "mo_group": "B_CORYNF",
+    "mo": "B_CRYNB_XRSS",
+    "mo_group_name": "Coryneform bacterium",
+    "mo_name": "Corynebacterium xerosis"
+  },
+  {
+    "mo_group": "B_CORYNF",
+    "mo": "B_DRMBC",
+    "mo_group_name": "Coryneform bacterium",
+    "mo_name": "Dermabacter"
+  },
+  {
+    "mo_group": "B_CORYNF",
+    "mo": "B_DRMBC_HMNS",
+    "mo_group_name": "Coryneform bacterium",
+    "mo_name": "Dermabacter hominis"
+  },
+  {
+    "mo_group": "B_CORYNF",
+    "mo": "B_LEFSN",
+    "mo_group_name": "Coryneform bacterium",
+    "mo_name": "Leifsonia"
+  },
+  {
+    "mo_group": "B_CORYNF",
+    "mo": "B_LEFSN_AQTC",
+    "mo_group_name": "Coryneform bacterium",
+    "mo_name": "Leifsonia aquatica"
+  },
+  {
+    "mo_group": "B_CORYNF",
+    "mo": "B_MCRBC",
+    "mo_group_name": "Coryneform bacterium",
+    "mo_name": "Microbacterium"
+  },
+  {
+    "mo_group": "B_CORYNF",
+    "mo": "B_MCRBC_ARBR",
+    "mo_group_name": "Coryneform bacterium",
+    "mo_name": "Microbacterium arborescens"
+  },
+  {
+    "mo_group": "B_CORYNF",
+    "mo": "B_MCRBC_IMPR",
+    "mo_group_name": "Coryneform bacterium",
+    "mo_name": "Microbacterium imperiale"
+  },
+  {
+    "mo_group": "B_CORYNF",
+    "mo": "B_MCRBC_LQFC",
+    "mo_group_name": "Coryneform bacterium",
+    "mo_name": "Microbacterium liquefaciens"
+  },
+  {
+    "mo_group": "B_CORYNF",
+    "mo": "B_MCRBC_OXYD",
+    "mo_group_name": "Coryneform bacterium",
+    "mo_name": "Microbacterium oxydans"
+  },
+  {
+    "mo_group": "B_CORYNF",
+    "mo": "B_ORSKV",
+    "mo_group_name": "Coryneform bacterium",
+    "mo_name": "Oerskovia"
+  },
+  {
+    "mo_group": "B_CORYNF",
+    "mo": "B_ORSKV_TRBT",
+    "mo_group_name": "Coryneform bacterium",
+    "mo_name": "Oerskovia turbata"
+  },
+  {
+    "mo_group": "B_CORYNF",
+    "mo": "B_ROTHI",
+    "mo_group_name": "Coryneform bacterium",
+    "mo_name": "Rothia"
+  },
+  {
+    "mo_group": "B_CORYNF",
+    "mo": "B_ROTHI_DNTC",
+    "mo_group_name": "Coryneform bacterium",
+    "mo_name": "Rothia dentocariosa"
+  },
+  {
+    "mo_group": "B_CORYNF",
+    "mo": "B_ROTHI_MCLG",
+    "mo_group_name": "Coryneform bacterium",
+    "mo_name": "Rothia mucilaginosa"
+  },
+  {
+    "mo_group": "B_CORYNF",
+    "mo": "B_TRPRL",
+    "mo_group_name": "Coryneform bacterium",
+    "mo_name": "Trueperella"
+  },
+  {
+    "mo_group": "B_CORYNF",
+    "mo": "B_TRPRL_BRNR",
+    "mo_group_name": "Coryneform bacterium",
+    "mo_name": "Trueperella bernardiae"
+  },
+  {
+    "mo_group": "B_CORYNF",
+    "mo": "B_TRPRL_PYGN",
+    "mo_group_name": "Coryneform bacterium",
+    "mo_name": "Trueperella pyogenes"
+  },
+  {
+    "mo_group": "B_CORYNF",
+    "mo": "B_CRYNB",
+    "mo_group_name": "Coryneform bacterium",
+    "mo_name": "Turicella"
+  },
+  {
+    "mo_group": "B_CORYNF",
+    "mo": "B_CRYNB_OTTD",
+    "mo_group_name": "Coryneform bacterium",
+    "mo_name": "Turicella otitidis"
+  },
+  {
+    "mo_group": "B_ENTRBC_CLOC-C",
+    "mo": "B_ENTRBC_ASBR",
+    "mo_group_name": "Enterobacter cloacae complex",
+    "mo_name": "Enterobacter asburiae"
+  },
+  {
+    "mo_group": "B_ENTRBC_CLOC-C",
+    "mo": "B_ENTRBC_CLOC",
+    "mo_group_name": "Enterobacter cloacae complex",
+    "mo_name": "Enterobacter cloacae"
+  },
+  {
+    "mo_group": "B_ENTRBC_CLOC-C",
+    "mo": "B_ENTRBC_HRMC",
+    "mo_group_name": "Enterobacter cloacae complex",
+    "mo_name": "Enterobacter hormaechei"
+  },
+  {
+    "mo_group": "B_ENTRBC_CLOC-C",
+    "mo": "B_ENTRBC_KOBE",
+    "mo_group_name": "Enterobacter cloacae complex",
+    "mo_name": "Enterobacter kobei"
+  },
+  {
+    "mo_group": "B_ENTRBC_CLOC-C",
+    "mo": "B_ENTRBC_LDWG",
+    "mo_group_name": "Enterobacter cloacae complex",
+    "mo_name": "Enterobacter ludwigii"
+  },
+  {
+    "mo_group": "B_ENTRBC_CLOC-C",
+    "mo": "B_LLLTT_NMPR",
+    "mo_group_name": "Enterobacter cloacae complex",
+    "mo_name": "Enterobacter nimipressuralis"
+  },
+  {
+    "mo_group": "B_HACEK",
+    "mo": "B_AGGRG_ACTN",
+    "mo_group_name": "Haemophilus, Aggregatibacter, Cardiobacterium, Eikenella, Kingella (HACEK)",
+    "mo_name": "Actinobacillus actinomycetemcomitans"
+  },
+  {
+    "mo_group": "B_HACEK",
+    "mo": "B_AGGRG",
+    "mo_group_name": "Haemophilus, Aggregatibacter, Cardiobacterium, Eikenella, Kingella (HACEK)",
+    "mo_name": "Aggregatibacter"
+  },
+  {
+    "mo_group": "B_HACEK",
+    "mo": "B_AGGRG_ACTN",
+    "mo_group_name": "Haemophilus, Aggregatibacter, Cardiobacterium, Eikenella, Kingella (HACEK)",
+    "mo_name": "Aggregatibacter actinomycetemcomitans"
+  },
+  {
+    "mo_group": "B_HACEK",
+    "mo": "B_AGGRG_APHR",
+    "mo_group_name": "Haemophilus, Aggregatibacter, Cardiobacterium, Eikenella, Kingella (HACEK)",
+    "mo_name": "Aggregatibacter aphrophilus"
+  },
+  {
+    "mo_group": "B_HACEK",
+    "mo": "B_AGGRG_KILN",
+    "mo_group_name": "Haemophilus, Aggregatibacter, Cardiobacterium, Eikenella, Kingella (HACEK)",
+    "mo_name": "Aggregatibacter kilianii"
+  },
+  {
+    "mo_group": "B_HACEK",
+    "mo": "B_AGGRG_APHR",
+    "mo_group_name": "Haemophilus, Aggregatibacter, Cardiobacterium, Eikenella, Kingella (HACEK)",
+    "mo_name": "Aggregatibacter paraphrophilus"
+  },
+  {
+    "mo_group": "B_HACEK",
+    "mo": "B_AGGRG_SGNS",
+    "mo_group_name": "Haemophilus, Aggregatibacter, Cardiobacterium, Eikenella, Kingella (HACEK)",
+    "mo_name": "Aggregatibacter segnis"
+  },
+  {
+    "mo_group": "B_HACEK",
+    "mo": "B_CRDBC_HMNS",
+    "mo_group_name": "Haemophilus, Aggregatibacter, Cardiobacterium, Eikenella, Kingella (HACEK)",
+    "mo_name": "Cardiobacterium hominis"
+  },
+  {
+    "mo_group": "B_HACEK",
+    "mo": "B_EKNLL_CRRD",
+    "mo_group_name": "Haemophilus, Aggregatibacter, Cardiobacterium, Eikenella, Kingella (HACEK)",
+    "mo_name": "Eikenella corrodens"
+  },
+  {
+    "mo_group": "B_HACEK",
+    "mo": "B_HMPHL",
+    "mo_group_name": "Haemophilus, Aggregatibacter, Cardiobacterium, Eikenella, Kingella (HACEK)",
+    "mo_name": "Haemophilus"
+  },
+  {
+    "mo_group": "B_HACEK",
+    "mo": "B_AGGRG_ACTN",
+    "mo_group_name": "Haemophilus, Aggregatibacter, Cardiobacterium, Eikenella, Kingella (HACEK)",
+    "mo_name": "Haemophilus actinomycetemcomitans"
+  },
+  {
+    "mo_group": "B_HACEK",
+    "mo": "B_HMPHL_AEGY",
+    "mo_group_name": "Haemophilus, Aggregatibacter, Cardiobacterium, Eikenella, Kingella (HACEK)",
+    "mo_name": "Haemophilus aegyptius"
+  },
+  {
+    "mo_group": "B_HACEK",
+    "mo": "B_AGGRG_APHR",
+    "mo_group_name": "Haemophilus, Aggregatibacter, Cardiobacterium, Eikenella, Kingella (HACEK)",
+    "mo_name": "Haemophilus aphrophilus"
+  },
+  {
+    "mo_group": "B_HACEK",
+    "mo": "B_AVBCT_AVIM",
+    "mo_group_name": "Haemophilus, Aggregatibacter, Cardiobacterium, Eikenella, Kingella (HACEK)",
+    "mo_name": "Haemophilus avium"
+  },
+  {
+    "mo_group": "B_HACEK",
+    "mo": "B_HMPHL_DCRY",
+    "mo_group_name": "Haemophilus, Aggregatibacter, Cardiobacterium, Eikenella, Kingella (HACEK)",
+    "mo_name": "Haemophilus ducreyi"
+  },
+  {
+    "mo_group": "B_HACEK",
+    "mo": "B_TYLRL_EQGN",
+    "mo_group_name": "Haemophilus, Aggregatibacter, Cardiobacterium, Eikenella, Kingella (HACEK)",
+    "mo_name": "Haemophilus equigenitalis"
+  },
+  {
+    "mo_group": "B_HACEK",
+    "mo": "B_HMPHL_FELS",
+    "mo_group_name": "Haemophilus, Aggregatibacter, Cardiobacterium, Eikenella, Kingella (HACEK)",
+    "mo_name": "Haemophilus felis"
+  },
+  {
+    "mo_group": "B_HACEK",
+    "mo": "B_CANCL_HMGL",
+    "mo_group_name": "Haemophilus, Aggregatibacter, Cardiobacterium, Eikenella, Kingella (HACEK)",
+    "mo_name": "Haemophilus haemoglobinophilus"
+  },
+  {
+    "mo_group": "B_HACEK",
+    "mo": "B_HMPHL_HMLY",
+    "mo_group_name": "Haemophilus, Aggregatibacter, Cardiobacterium, Eikenella, Kingella (HACEK)",
+    "mo_name": "Haemophilus haemolyticus"
+  },
+  {
+    "mo_group": "B_HACEK",
+    "mo": "B_HMPHL_INFL",
+    "mo_group_name": "Haemophilus, Aggregatibacter, Cardiobacterium, Eikenella, Kingella (HACEK)",
+    "mo_name": "Haemophilus influenzae"
+  },
+  {
+    "mo_group": "B_HACEK",
+    "mo": "B_HMPHL_MSSL",
+    "mo_group_name": "Haemophilus, Aggregatibacter, Cardiobacterium, Eikenella, Kingella (HACEK)",
+    "mo_name": "Haemophilus massiliensis"
+  },
+  {
+    "mo_group": "B_HACEK",
+    "mo": "B_HMPHL_PRCN",
+    "mo_group_name": "Haemophilus, Aggregatibacter, Cardiobacterium, Eikenella, Kingella (HACEK)",
+    "mo_name": "Haemophilus paracuniculus"
+  },
+  {
+    "mo_group": "B_HACEK",
+    "mo": "B_AVBCT_PRGL",
+    "mo_group_name": "Haemophilus, Aggregatibacter, Cardiobacterium, Eikenella, Kingella (HACEK)",
+    "mo_name": "Haemophilus paragallinarum"
+  },
+  {
+    "mo_group": "B_HACEK",
+    "mo": "B_HMPHL_PRHM",
+    "mo_group_name": "Haemophilus, Aggregatibacter, Cardiobacterium, Eikenella, Kingella (HACEK)",
+    "mo_name": "Haemophilus parahaemolyticus"
+  },
+  {
+    "mo_group": "B_HACEK",
+    "mo": "B_HMPHL_PRNF",
+    "mo_group_name": "Haemophilus, Aggregatibacter, Cardiobacterium, Eikenella, Kingella (HACEK)",
+    "mo_name": "Haemophilus parainfluenzae"
+  },
+  {
+    "mo_group": "B_HACEK",
+    "mo": "B_HMPHL_PRPH",
+    "mo_group_name": "Haemophilus, Aggregatibacter, Cardiobacterium, Eikenella, Kingella (HACEK)",
+    "mo_name": "Haemophilus paraphrohaemolyticus"
+  },
+  {
+    "mo_group": "B_HACEK",
+    "mo": "B_AGGRG_APHR",
+    "mo_group_name": "Haemophilus, Aggregatibacter, Cardiobacterium, Eikenella, Kingella (HACEK)",
+    "mo_name": "Haemophilus paraphrophilus"
+  },
+  {
+    "mo_group": "B_HACEK",
+    "mo": "B_GLSSR_PRSS",
+    "mo_group_name": "Haemophilus, Aggregatibacter, Cardiobacterium, Eikenella, Kingella (HACEK)",
+    "mo_name": "Haemophilus parasuis"
+  },
+  {
+    "mo_group": "B_HACEK",
+    "mo": "B_HMPHL_PSCM",
+    "mo_group_name": "Haemophilus, Aggregatibacter, Cardiobacterium, Eikenella, Kingella (HACEK)",
+    "mo_name": "Haemophilus piscium"
+  },
+  {
+    "mo_group": "B_HACEK",
+    "mo": "B_HMPHL_PTTM",
+    "mo_group_name": "Haemophilus, Aggregatibacter, Cardiobacterium, Eikenella, Kingella (HACEK)",
+    "mo_name": "Haemophilus pittmaniae"
+  },
+  {
+    "mo_group": "B_HACEK",
+    "mo": "B_ACTNB_PLRP",
+    "mo_group_name": "Haemophilus, Aggregatibacter, Cardiobacterium, Eikenella, Kingella (HACEK)",
+    "mo_name": "Haemophilus pleuropneumoniae"
+  },
+  {
+    "mo_group": "B_HACEK",
+    "mo": "B_HMPHL_QNTN",
+    "mo_group_name": "Haemophilus, Aggregatibacter, Cardiobacterium, Eikenella, Kingella (HACEK)",
+    "mo_name": "Haemophilus quentini"
+  },
+  {
+    "mo_group": "B_HACEK",
+    "mo": "B_AGGRG_SGNS",
+    "mo_group_name": "Haemophilus, Aggregatibacter, Cardiobacterium, Eikenella, Kingella (HACEK)",
+    "mo_name": "Haemophilus segnis"
+  },
+  {
+    "mo_group": "B_HACEK",
+    "mo": "B_HMPHL_SMNL",
+    "mo_group_name": "Haemophilus, Aggregatibacter, Cardiobacterium, Eikenella, Kingella (HACEK)",
+    "mo_name": "Haemophilus seminalis"
+  },
+  {
+    "mo_group": "B_HACEK",
+    "mo": "B_HMPHL_SPTR",
+    "mo_group_name": "Haemophilus, Aggregatibacter, Cardiobacterium, Eikenella, Kingella (HACEK)",
+    "mo_name": "Haemophilus sputorum"
+  },
+  {
+    "mo_group": "B_HACEK",
+    "mo": "B_GRDNR_VGNL",
+    "mo_group_name": "Haemophilus, Aggregatibacter, Cardiobacterium, Eikenella, Kingella (HACEK)",
+    "mo_name": "Haemophilus vaginalis"
+  },
+  {
+    "mo_group": "B_HACEK",
+    "mo": "B_KGLLA",
+    "mo_group_name": "Haemophilus, Aggregatibacter, Cardiobacterium, Eikenella, Kingella (HACEK)",
+    "mo_name": "Kingella"
+  },
+  {
+    "mo_group": "B_HACEK",
+    "mo": "B_KGLLA_DNTR",
+    "mo_group_name": "Haemophilus, Aggregatibacter, Cardiobacterium, Eikenella, Kingella (HACEK)",
+    "mo_name": "Kingella denitrificans"
+  },
+  {
+    "mo_group": "B_HACEK",
+    "mo": "B_STTNL_INDL",
+    "mo_group_name": "Haemophilus, Aggregatibacter, Cardiobacterium, Eikenella, Kingella (HACEK)",
+    "mo_name": "Kingella indologenes"
+  },
+  {
+    "mo_group": "B_HACEK",
+    "mo": "B_KGLLA_KING",
+    "mo_group_name": "Haemophilus, Aggregatibacter, Cardiobacterium, Eikenella, Kingella (HACEK)",
+    "mo_name": "Kingella kingae"
+  },
+  {
+    "mo_group": "B_HACEK",
+    "mo": "B_KGLLA_NGVN",
+    "mo_group_name": "Haemophilus, Aggregatibacter, Cardiobacterium, Eikenella, Kingella (HACEK)",
+    "mo_name": "Kingella negevensis"
+  },
+  {
+    "mo_group": "B_HACEK",
+    "mo": "B_KGLLA_ORLS",
+    "mo_group_name": "Haemophilus, Aggregatibacter, Cardiobacterium, Eikenella, Kingella (HACEK)",
+    "mo_name": "Kingella orale"
+  },
+  {
+    "mo_group": "B_HACEK",
+    "mo": "B_KGLLA_ORLS",
+    "mo_group_name": "Haemophilus, Aggregatibacter, Cardiobacterium, Eikenella, Kingella (HACEK)",
+    "mo_name": "Kingella oralis"
+  },
+  {
+    "mo_group": "B_HACEK",
+    "mo": "B_KGLLA_POTS",
+    "mo_group_name": "Haemophilus, Aggregatibacter, Cardiobacterium, Eikenella, Kingella (HACEK)",
+    "mo_name": "Kingella potus"
+  },
+  {
+    "mo_group": "B_KLBSL_PNMN-C",
+    "mo": "B_KLBSL_AFRC",
+    "mo_group_name": "Klebsiella pneumoniae complex",
+    "mo_name": "Klebsiella africana"
+  },
+  {
+    "mo_group": "B_KLBSL_PNMN-C",
+    "mo": "B_KLBSL_PNMN",
+    "mo_group_name": "Klebsiella pneumoniae complex",
+    "mo_name": "Klebsiella pneumoniae"
+  },
+  {
+    "mo_group": "B_KLBSL_PNMN-C",
+    "mo": "B_KLBSL_QSPN",
+    "mo_group_name": "Klebsiella pneumoniae complex",
+    "mo_name": "Klebsiella quasipneumoniae"
+  },
+  {
+    "mo_group": "B_KLBSL_PNMN-C",
+    "mo": "B_KLBSL_QSVR",
+    "mo_group_name": "Klebsiella pneumoniae complex",
+    "mo_name": "Klebsiella quasivariicola"
+  },
+  {
+    "mo_group": "B_KLBSL_PNMN-C",
+    "mo": "B_KLBSL_VRCL",
+    "mo_group_name": "Klebsiella pneumoniae complex",
+    "mo_name": "Klebsiella variicola"
+  },
+  {
+    "mo_group": "B_MYCBC_AVIM-C",
+    "mo": "B_MYCBC_AVIM",
+    "mo_group_name": "Mycobacterium avium-intracellulare complex",
+    "mo_name": "Mycobacterium avium"
+  },
+  {
+    "mo_group": "B_MYCBC_AVIM-C",
+    "mo": "B_MYCBC_LLRE",
+    "mo_group_name": "Mycobacterium avium-intracellulare complex",
+    "mo_name": "Mycobacterium intracellulare"
+  },
+  {
+    "mo_group": "B_MYCBC_TBRC-C",
+    "mo": "B_MYCBC_TBRC",
+    "mo_group_name": "Mycobacterium tuberculosis complex",
+    "mo_name": "Mycobacterium africanum"
+  },
+  {
+    "mo_group": "B_MYCBC_TBRC-C",
+    "mo": "B_MYCBC_TBRC",
+    "mo_group_name": "Mycobacterium tuberculosis complex",
+    "mo_name": "Mycobacterium bovis"
+  },
+  {
+    "mo_group": "B_MYCBC_TBRC-C",
+    "mo": "B_MYCBC_TBRC",
+    "mo_group_name": "Mycobacterium tuberculosis complex",
+    "mo_name": "Mycobacterium bovis bovis"
+  },
+  {
+    "mo_group": "B_MYCBC_TBRC-C",
+    "mo": "B_MYCBC_TBRC",
+    "mo_group_name": "Mycobacterium tuberculosis complex",
+    "mo_name": "Mycobacterium bovis caprae"
+  },
+  {
+    "mo_group": "B_MYCBC_TBRC-C",
+    "mo": "B_MYCBC_TBRC",
+    "mo_group_name": "Mycobacterium tuberculosis complex",
+    "mo_name": "Mycobacterium caprae"
+  },
+  {
+    "mo_group": "B_MYCBC_TBRC-C",
+    "mo": "B_MYCBC_TBRC",
+    "mo_group_name": "Mycobacterium tuberculosis complex",
+    "mo_name": "Mycobacterium microti"
+  },
+  {
+    "mo_group": "B_MYCBC_TBRC-C",
+    "mo": "B_MYCBC_MUNG",
+    "mo_group_name": "Mycobacterium tuberculosis complex",
+    "mo_name": "Mycobacterium mungi"
+  },
+  {
+    "mo_group": "B_MYCBC_TBRC-C",
+    "mo": "B_MYCBC_ORYG",
+    "mo_group_name": "Mycobacterium tuberculosis complex",
+    "mo_name": "Mycobacterium orygis"
+  },
+  {
+    "mo_group": "B_MYCBC_TBRC-C",
+    "mo": "B_MYCBC_TBRC",
+    "mo_group_name": "Mycobacterium tuberculosis complex",
+    "mo_name": "Mycobacterium pinnipedii"
+  },
+  {
+    "mo_group": "B_MYCBC_TBRC-C",
+    "mo": "B_MYCBC_TBRC",
+    "mo_group_name": "Mycobacterium tuberculosis complex",
+    "mo_name": "Mycobacterium tuberculosis"
+  },
+  {
+    "mo_group": "B_MYCBC_TBRC-C",
+    "mo": "B_MYCBC_TBRC",
+    "mo_group_name": "Mycobacterium tuberculosis complex",
+    "mo_name": "Mycobacterium tuberculosis caprae"
+  },
+  {
+    "mo_group": "B_MYCBC_TBRC-C",
+    "mo": "B_MYCBC_TBRC",
+    "mo_group_name": "Mycobacterium tuberculosis complex",
+    "mo_name": "Mycobacterium tuberculosis tuberculosis"
+  },
+  {
+    "mo_group": "B_PSDMN_FLRS-C",
+    "mo": "B_PSDMN_FLRS",
+    "mo_group_name": "Pseudomonas fluorescens complex",
+    "mo_name": "Pseudomonas fluorescens"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_AGRI",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium agri"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_ACHN",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium aichiense"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_ALGR",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium algericum"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_ALVE",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium alvei"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_ANYN",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium anyangense"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_ARBN",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium arabiense"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_ARMT",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium aromaticivorans"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_ABGN",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium aubagnense"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_AURM",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium aurum"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_ASTR",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium austroafricanum"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_BCTR",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium bacteremicum"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_BNCK",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium boenickei"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_BRGL",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium bourgelatii"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_BRSB",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium brisbanense"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_BRUM",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium brumae"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_CNRS",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium canariasense"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_CLRF",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium celeriflavum"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_CHLN",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium chelonae"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_ABSC",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium chelonae abscessus"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_CHIT",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium chitae"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_CHLR",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium chlorophenolicum"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_CHBN",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium chubuense"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_CNFL",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium confluentis"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_CSMT",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium cosmeticum"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_CRCN",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium crocinum"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_DRNH",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium diernhoferi"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_DUVL",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium duvalii"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_ELPH",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium elephantis"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_FLLX",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium fallax"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_FLVS",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium flavescens"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_VRNS",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium fluoranthenivorans"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_FRTT",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium fortuitum"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_FRNK",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium franklinii"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_FRDR",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium frederiksbergense"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_GADM",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium gadium"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_GLVM",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium gilvum"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_GOOD",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium goodii"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_HSSC",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium hassiacum"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_HPPC",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium hippocampi"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_HDLR",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium hodleri"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_HLST",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium holsaticum"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_HSTN",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium houstonense"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_IMMN",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium immunogenum"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_INSB",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium insubricum"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_IRNC",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium iranicum"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_KMSS",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium komossense"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_LTRL",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium litorale"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_LLTZ",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium llatzerense"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_MDGS",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium madagascariense"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_MGRT",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium mageritense"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_MNCN",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium monacense"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_MRKN",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium moriokaense"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_MCGN",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium mucogenicum"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_MURL",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium murale"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_NERM",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium neoaurum"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_NWRL",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium neworleansense"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_NVCS",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium novocastrense"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_OBNS",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium obuense"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_PLLN",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium pallens"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_PRFR",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium parafortuitum"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_GRNM",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium peregrinum"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_PHLE",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium phlei"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_PHCC",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium phocaicum"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_PRCN",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium porcinum"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_RFRE",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium poriferae"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_PSYC",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium psychrotolerans"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_PYRN",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium pyrenivorans"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_RHDS",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium rhodesiae"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_RUFM",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium rufum"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_RTLM",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium rutilum"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_SLMN",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium salmoniphilum"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_SDMN",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium sediminis"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_SNGL",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium senegalense"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_SPTC",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium septicum"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_STNS",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium setense"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_SMGM",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium smegmatis"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_SPHG",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium sphagni"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_THRM",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium thermoresistibile"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_TKNS",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium tokaiense"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_VACC",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium vaccae"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_ASTR",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium vanbaalenii"
+  },
+  {
+    "mo_group": "B_MYCBC_RGM",
+    "mo": "B_MYCBC_WLNS",
+    "mo_group_name": "Rapidly growing Mycobacterium (RGM)",
+    "mo_name": "Mycobacterium wolinskyi"
+  },
+  {
+    "mo_group": "B_MYCBC_SGM",
+    "mo": "B_MYCBC_FRCN",
+    "mo_group_name": "Slowly growing Mycobacterium (SGM)",
+    "mo_name": "Mycobacterium farcinogenes"
+  },
+  {
+    "mo_group": "B_MYCBC_SGM",
+    "mo": "B_MYCBC_GSTR",
+    "mo_group_name": "Slowly growing Mycobacterium (SGM)",
+    "mo_name": "Mycobacterium gastri"
+  },
+  {
+    "mo_group": "B_MYCBC_SGM",
+    "mo": "B_MYCBC_GNVN",
+    "mo_group_name": "Slowly growing Mycobacterium (SGM)",
+    "mo_name": "Mycobacterium genavense"
+  },
+  {
+    "mo_group": "B_MYCBC_SGM",
+    "mo": "B_MYCBC_HMPH",
+    "mo_group_name": "Slowly growing Mycobacterium (SGM)",
+    "mo_name": "Mycobacterium haemophilum"
+  },
+  {
+    "mo_group": "B_MYCBC_SGM",
+    "mo": "B_MYCBC_KNSS",
+    "mo_group_name": "Slowly growing Mycobacterium (SGM)",
+    "mo_name": "Mycobacterium kansasii"
+  },
+  {
+    "mo_group": "B_MYCBC_SGM",
+    "mo": "B_MYCBC_LEPR",
+    "mo_group_name": "Slowly growing Mycobacterium (SGM)",
+    "mo_name": "Mycobacterium leprae"
+  },
+  {
+    "mo_group": "B_MYCBC_SGM",
+    "mo": "B_MYCBC_LPRM",
+    "mo_group_name": "Slowly growing Mycobacterium (SGM)",
+    "mo_name": "Mycobacterium lepraemurium"
+  },
+  {
+    "mo_group": "B_MYCBC_SGM",
+    "mo": "B_MYCBC_MLMN",
+    "mo_group_name": "Slowly growing Mycobacterium (SGM)",
+    "mo_name": "Mycobacterium malmoense"
+  },
+  {
+    "mo_group": "B_MYCBC_SGM",
+    "mo": "B_MYCBC_MRNM",
+    "mo_group_name": "Slowly growing Mycobacterium (SGM)",
+    "mo_name": "Mycobacterium marinum"
+  },
+  {
+    "mo_group": "B_STRPT_GRPA",
+    "mo": "B_STRPT_PYGN",
+    "mo_group_name": "Streptococcus Group A",
+    "mo_name": "Streptococcus pyogenes"
+  },
+  {
+    "mo_group": "B_STRPT_ABCG",
+    "mo": "B_STRPT_AGLC",
+    "mo_group_name": "Streptococcus Group A, B, C, G",
+    "mo_name": "Streptococcus agalactiae"
+  },
+  {
+    "mo_group": "B_STRPT_ABCG",
+    "mo": "B_STRPT_CANS",
+    "mo_group_name": "Streptococcus Group A, B, C, G",
+    "mo_name": "Streptococcus canis"
+  },
+  {
+    "mo_group": "B_STRPT_ABCG",
+    "mo": "B_STRPT_DYSG",
+    "mo_group_name": "Streptococcus Group A, B, C, G",
+    "mo_name": "Streptococcus dysgalactiae"
+  },
+  {
+    "mo_group": "B_STRPT_ABCG",
+    "mo": "B_STRPT_EQUI",
+    "mo_group_name": "Streptococcus Group A, B, C, G",
+    "mo_name": "Streptococcus equi"
+  },
+  {
+    "mo_group": "B_STRPT_ABCG",
+    "mo": "B_STRPT_PYGN",
+    "mo_group_name": "Streptococcus Group A, B, C, G",
+    "mo_name": "Streptococcus pyogenes"
+  },
+  {
+    "mo_group": "B_STRPT_GRPB",
+    "mo": "B_STRPT_AGLC",
+    "mo_group_name": "Streptococcus Group B",
+    "mo_name": "Streptococcus agalactiae"
+  },
+  {
+    "mo_group": "B_STRPT_GRPC",
+    "mo": "B_STRPT_DYSG",
+    "mo_group_name": "Streptococcus Group C",
+    "mo_name": "Streptococcus dysgalactiae"
+  },
+  {
+    "mo_group": "B_STRPT_GRPC",
+    "mo": "B_STRPT_EQUI",
+    "mo_group_name": "Streptococcus Group C",
+    "mo_name": "Streptococcus equi"
+  },
+  {
+    "mo_group": "B_STRPT_GRPF",
+    "mo": "B_STRPT_ANGN",
+    "mo_group_name": "Streptococcus Group F",
+    "mo_name": "Streptococcus anginosus"
+  },
+  {
+    "mo_group": "B_STRPT_GRPF",
+    "mo": "B_STRPT_CNST",
+    "mo_group_name": "Streptococcus Group F",
+    "mo_name": "Streptococcus constellatus"
+  },
+  {
+    "mo_group": "B_STRPT_GRPF",
+    "mo": "B_STRPT_INTR",
+    "mo_group_name": "Streptococcus Group F",
+    "mo_name": "Streptococcus intermedius"
+  },
+  {
+    "mo_group": "B_STRPT_GRPG",
+    "mo": "B_STRPT_CANS",
+    "mo_group_name": "Streptococcus Group G",
+    "mo_name": "Streptococcus canis"
+  },
+  {
+    "mo_group": "B_STRPT_GRPG",
+    "mo": "B_STRPT_DYSG",
+    "mo_group_name": "Streptococcus Group G",
+    "mo_name": "Streptococcus dysgalactiae"
+  },
+  {
+    "mo_group": "B_STRPT_GRPH",
+    "mo": "B_STRPT_SNGN",
+    "mo_group_name": "Streptococcus Group H",
+    "mo_name": "Streptococcus sanguinis"
+  },
+  {
+    "mo_group": "B_STRPT_GRPK",
+    "mo": "B_STRPT_SLVR",
+    "mo_group_name": "Streptococcus Group K",
+    "mo_name": "Streptococcus salivarius"
+  },
+  {
+    "mo_group": "B_STRPT_GRPK",
+    "mo": "B_STRPT_SLVR",
+    "mo_group_name": "Streptococcus Group K",
+    "mo_name": "Streptococcus salivarius salivarius"
+  },
+  {
+    "mo_group": "B_STRPT_GRPK",
+    "mo": "B_STRPT_THRM",
+    "mo_group_name": "Streptococcus Group K",
+    "mo_name": "Streptococcus salivarius thermophilus"
+  },
+  {
+    "mo_group": "B_STRPT_GRPL",
+    "mo": "B_STRPT_DYSG",
+    "mo_group_name": "Streptococcus Group L",
+    "mo_name": "Streptococcus dysgalactiae"
+  },
+  {
+    "mo_group": "B_STRPT_VIRI",
+    "mo": "B_STRPT_MILL",
+    "mo_group_name": "Viridans Group Streptococcus (VGS)",
+    "mo_name": "Milleri Group Streptococcus (MGS)"
+  },
+  {
+    "mo_group": "B_STRPT_VIRI",
+    "mo": "B_STRPT_ACDM",
+    "mo_group_name": "Viridans Group Streptococcus (VGS)",
+    "mo_name": "Streptococcus acidominimus"
+  },
+  {
+    "mo_group": "B_STRPT_VIRI",
+    "mo": "B_STRPT_ANGN",
+    "mo_group_name": "Viridans Group Streptococcus (VGS)",
+    "mo_name": "Streptococcus anginosus"
+  },
+  {
+    "mo_group": "B_STRPT_VIRI",
+    "mo": "B_STRPT_CNST",
+    "mo_group_name": "Viridans Group Streptococcus (VGS)",
+    "mo_name": "Streptococcus constellatus"
+  },
+  {
+    "mo_group": "B_STRPT_VIRI",
+    "mo": "B_STRPT_CRCT",
+    "mo_group_name": "Viridans Group Streptococcus (VGS)",
+    "mo_name": "Streptococcus criceti"
+  },
+  {
+    "mo_group": "B_STRPT_VIRI",
+    "mo": "B_STRPT_CRST",
+    "mo_group_name": "Viridans Group Streptococcus (VGS)",
+    "mo_name": "Streptococcus cristatus"
+  },
+  {
+    "mo_group": "B_STRPT_VIRI",
+    "mo": "B_STRPT_DOWN",
+    "mo_group_name": "Viridans Group Streptococcus (VGS)",
+    "mo_name": "Streptococcus downei"
+  },
+  {
+    "mo_group": "B_STRPT_VIRI",
+    "mo": "B_STRPT_EQNS",
+    "mo_group_name": "Viridans Group Streptococcus (VGS)",
+    "mo_name": "Streptococcus equinus"
+  },
+  {
+    "mo_group": "B_STRPT_VIRI",
+    "mo": "B_STRPT_FERS",
+    "mo_group_name": "Viridans Group Streptococcus (VGS)",
+    "mo_name": "Streptococcus ferus"
+  },
+  {
+    "mo_group": "B_STRPT_VIRI",
+    "mo": "B_STRPT_GRDN",
+    "mo_group_name": "Viridans Group Streptococcus (VGS)",
+    "mo_name": "Streptococcus gordonii"
+  },
+  {
+    "mo_group": "B_STRPT_VIRI",
+    "mo": "B_STRPT_INTR",
+    "mo_group_name": "Viridans Group Streptococcus (VGS)",
+    "mo_name": "Streptococcus intermedius"
+  },
+  {
+    "mo_group": "B_STRPT_VIRI",
+    "mo": "B_STRPT_MACC",
+    "mo_group_name": "Viridans Group Streptococcus (VGS)",
+    "mo_name": "Streptococcus macacae"
+  },
+  {
+    "mo_group": "B_STRPT_VIRI",
+    "mo": "B_STRPT_MITS",
+    "mo_group_name": "Viridans Group Streptococcus (VGS)",
+    "mo_name": "Streptococcus mitis"
+  },
+  {
+    "mo_group": "B_STRPT_VIRI",
+    "mo": "B_STRPT_MTNS",
+    "mo_group_name": "Viridans Group Streptococcus (VGS)",
+    "mo_name": "Streptococcus mutans"
+  },
+  {
+    "mo_group": "B_STRPT_VIRI",
+    "mo": "B_STRPT_ORLS",
+    "mo_group_name": "Viridans Group Streptococcus (VGS)",
+    "mo_name": "Streptococcus oralis"
+  },
+  {
+    "mo_group": "B_STRPT_VIRI",
+    "mo": "B_STRPT_PRSN",
+    "mo_group_name": "Viridans Group Streptococcus (VGS)",
+    "mo_name": "Streptococcus parasanguinis"
+  },
+  {
+    "mo_group": "B_STRPT_VIRI",
+    "mo": "B_STRPT_RATT",
+    "mo_group_name": "Viridans Group Streptococcus (VGS)",
+    "mo_name": "Streptococcus ratti"
+  },
+  {
+    "mo_group": "B_STRPT_VIRI",
+    "mo": "B_STRPT_SLVR",
+    "mo_group_name": "Viridans Group Streptococcus (VGS)",
+    "mo_name": "Streptococcus salivarius"
+  },
+  {
+    "mo_group": "B_STRPT_VIRI",
+    "mo": "B_STRPT_SLVR",
+    "mo_group_name": "Viridans Group Streptococcus (VGS)",
+    "mo_name": "Streptococcus salivarius salivarius"
+  },
+  {
+    "mo_group": "B_STRPT_VIRI",
+    "mo": "B_STRPT_THRM",
+    "mo_group_name": "Viridans Group Streptococcus (VGS)",
+    "mo_name": "Streptococcus salivarius thermophilus"
+  },
+  {
+    "mo_group": "B_STRPT_VIRI",
+    "mo": "B_STRPT_SNGN",
+    "mo_group_name": "Viridans Group Streptococcus (VGS)",
+    "mo_name": "Streptococcus sanguinis"
+  },
+  {
+    "mo_group": "B_STRPT_VIRI",
+    "mo": "B_STRPT_SBRN",
+    "mo_group_name": "Viridans Group Streptococcus (VGS)",
+    "mo_name": "Streptococcus sobrinus"
+  },
+  {
+    "mo_group": "B_STRPT_VIRI",
+    "mo": "B_STRPT_SUIS",
+    "mo_group_name": "Viridans Group Streptococcus (VGS)",
+    "mo_name": "Streptococcus suis"
+  },
+  {
+    "mo_group": "B_STRPT_VIRI",
+    "mo": "B_STRPT_UBRS",
+    "mo_group_name": "Viridans Group Streptococcus (VGS)",
+    "mo_name": "Streptococcus uberis"
+  },
+  {
+    "mo_group": "B_STRPT_VIRI",
+    "mo": "B_STRPT_VSTB",
+    "mo_group_name": "Viridans Group Streptococcus (VGS)",
+    "mo_name": "Streptococcus vestibularis"
+  },
+  {
+    "mo_group": "B_YERSN_PSDT-C",
+    "mo": "B_YERSN_PSTS",
+    "mo_group_name": "Yersinia pseudotuberculosis complex",
+    "mo_name": "Yersinia pestis"
+  },
+  {
+    "mo_group": "B_YERSN_PSDT-C",
+    "mo": "B_YERSN_PSDT",
+    "mo_group_name": "Yersinia pseudotuberculosis complex",
+    "mo_name": "Yersinia pseudotuberculosis"
+  },
+  {
+    "mo_group": "B_YERSN_PSDT-C",
+    "mo": "B_YERSN_PSTS",
+    "mo_group_name": "Yersinia pseudotuberculosis complex",
+    "mo_name": "Yersinia pseudotuberculosis pestis"
+  },
+  {
+    "mo_group": "B_YERSN_PSDT-C",
+    "mo": "B_YERSN_PSDT",
+    "mo_group_name": "Yersinia pseudotuberculosis complex",
+    "mo_name": "Yersinia pseudotuberculosis pseudotuberculosis"
+  },
+  {
+    "mo_group": "B_YERSN_PSDT-C",
+    "mo": "B_YERSN_SMLS",
+    "mo_group_name": "Yersinia pseudotuberculosis complex",
+    "mo_name": "Yersinia similis"
+  },
+  {
+    "mo_group": "B_YERSN_PSDT-C",
+    "mo": "B_YERSN_WTRS",
+    "mo_group_name": "Yersinia pseudotuberculosis complex",
+    "mo_name": "Yersinia wautersii"
+  }
+]
