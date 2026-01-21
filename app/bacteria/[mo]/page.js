@@ -4,11 +4,16 @@ import {
   getBacteriumByMo,
   getIntrinsicResistanceForBacterium,
   getBreakpointsForBacterium,
+  getEcoffsForBacterium,
   getGroupsForBacterium,
-  getClinicalRelevancy
+  getClinicalRelevancy,
+  getGramStain,
+  getMorphology,
+  getOxygenRequirements
 } from '@/lib/data';
 import ResistanceTable from '@/components/ResistanceTable';
 import BreakpointsTable from '@/components/BreakpointsTable';
+import EcoffTable from '@/components/EcoffTable';
 
 export async function generateMetadata({ params }) {
   const { mo } = await params;
@@ -34,8 +39,15 @@ export default async function BacteriaDetailPage({ params }) {
 
   const intrinsicResistance = getIntrinsicResistanceForBacterium(mo);
   const breakpoints = getBreakpointsForBacterium(mo);
+  const ecoffs = getEcoffsForBacterium(mo);
   const groups = getGroupsForBacterium(mo);
   const relevancy = getClinicalRelevancy(bacteria.prevalence);
+
+  // Get characteristics
+  const gramStain = getGramStain(bacteria);
+  const morphology = getMorphology(bacteria);
+  const oxygenReq = getOxygenRequirements(bacteria);
+  const hasCharacteristics = gramStain || morphology || oxygenReq;
 
   // Build taxonomy path
   const taxonomy = [
@@ -75,6 +87,29 @@ export default async function BacteriaDetailPage({ params }) {
         </div>
       </header>
 
+      {hasCharacteristics && (
+        <section className="characteristics-section">
+          {gramStain && (
+            <div className={`char-badge char-gram-${gramStain.stain}`}>
+              <span className="char-icon">◉</span>
+              <span className="char-label">{gramStain.label}</span>
+            </div>
+          )}
+          {morphology && (
+            <div className={`char-badge char-shape-${morphology.shape}`}>
+              <span className="char-icon">⬭</span>
+              <span className="char-label">{morphology.label}</span>
+            </div>
+          )}
+          {oxygenReq && (
+            <div className={`char-badge char-oxygen-${oxygenReq.type}`}>
+              <span className="char-icon">○</span>
+              <span className="char-label">{oxygenReq.label}</span>
+            </div>
+          )}
+        </section>
+      )}
+
       <section className="detail-section">
         <h2>Taxonomy</h2>
         <div className="taxonomy-path">
@@ -95,9 +130,14 @@ export default async function BacteriaDetailPage({ params }) {
           <h2>Group Memberships</h2>
           <div className="groups-list">
             {groups.map((g, idx) => (
-              <div key={idx} className="group-item">
+              <Link
+                key={idx}
+                href={`/group/${encodeURIComponent(g.mo_group)}`}
+                className="group-item group-item-link"
+              >
                 <span className="group-name">{g.mo_group_name}</span>
-              </div>
+                <span className="group-arrow">&rarr;</span>
+              </Link>
             ))}
           </div>
         </section>
@@ -120,6 +160,15 @@ export default async function BacteriaDetailPage({ params }) {
           )}
         </p>
         <BreakpointsTable breakpoints={breakpoints} />
+      </section>
+
+      <section className="detail-section">
+        <h2>Epidemiological Cut-Offs (EUCAST 2025)</h2>
+        <p className="section-description">
+          ECOFF values distinguish wild-type organisms (without acquired resistance) from non-wild-type.
+          Values below ECOFF indicate wild-type; values above suggest acquired resistance mechanisms.
+        </p>
+        <EcoffTable ecoffs={ecoffs} />
       </section>
     </div>
   );

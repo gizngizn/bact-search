@@ -51,12 +51,33 @@ const filteredIntrinsicResistant = intrinsicResistant.filter(
 
 console.log(`Filtered intrinsic resistance to ${filteredIntrinsicResistant.length} records`);
 
-// Filter clinical breakpoints to only include bacteria mo codes
+// Filter clinical breakpoints to only include bacteria mo codes and human type
 const filteredClinicalBreakpoints = clinicalBreakpoints.filter(
-  cb => bacteriaMoCodes.has(cb.mo)
+  cb => bacteriaMoCodes.has(cb.mo) && cb.type === 'human'
 );
 
 console.log(`Filtered clinical breakpoints to ${filteredClinicalBreakpoints.length} records`);
+
+// Filter ECOFF data - separate from clinical breakpoints
+// Get the most recent EUCAST ECOFF year
+const ecoffRecords = clinicalBreakpoints.filter(cb => cb.type === 'ECOFF');
+const eucastEcoffYears = [...new Set(
+  ecoffRecords
+    .filter(cb => cb.guideline && cb.guideline.startsWith('EUCAST'))
+    .map(cb => cb.guideline)
+)].sort().reverse();
+
+const latestEucastEcoff = eucastEcoffYears[0];
+console.log(`Latest EUCAST ECOFF guideline: ${latestEucastEcoff}`);
+
+// Filter ECOFFs to only include bacteria we have, and latest EUCAST
+const filteredEcoffs = clinicalBreakpoints.filter(
+  cb => cb.type === 'ECOFF' &&
+        bacteriaMoCodes.has(cb.mo) &&
+        cb.guideline === latestEucastEcoff
+);
+
+console.log(`Filtered ECOFFs to ${filteredEcoffs.length} records (${latestEucastEcoff})`);
 
 // Filter microorganisms groups to only include bacteria mo codes
 const filteredMicroorganismsGroups = microorganismsGroups.filter(
@@ -91,6 +112,12 @@ fs.writeFileSync(
   JSON.stringify(filteredClinicalBreakpoints, null, 2)
 );
 console.log(`Wrote clinical_breakpoints.json (${filteredClinicalBreakpoints.length} entries)`);
+
+fs.writeFileSync(
+  path.join(outputDir, 'ecoffs.json'),
+  JSON.stringify(filteredEcoffs, null, 2)
+);
+console.log(`Wrote ecoffs.json (${filteredEcoffs.length} entries)`);
 
 fs.writeFileSync(
   path.join(outputDir, 'microorganisms_groups.json'),

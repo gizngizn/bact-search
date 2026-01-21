@@ -933,6 +933,112 @@ input, select {
   border-radius: var(--radius-sm);
 }
 
+/* Characteristics Section */
+.characteristics-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  margin-bottom: var(--space-5);
+}
+
+.char-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-3) var(--space-4);
+  border-radius: var(--radius-lg);
+  font-size: 0.875rem;
+  font-weight: 500;
+  background: var(--surface);
+  border: 1px solid var(--border-subtle);
+}
+
+.char-icon {
+  font-size: 0.75rem;
+  opacity: 0.7;
+}
+
+.char-label {
+  color: var(--tx);
+}
+
+/* Gram stain colors */
+.char-gram-positive {
+  background: color-mix(in srgb, var(--purple-600) 12%, var(--surface));
+  border-color: color-mix(in srgb, var(--purple-600) 30%, var(--border-subtle));
+}
+.char-gram-positive .char-icon { color: var(--purple-600); }
+
+.char-gram-negative {
+  background: color-mix(in srgb, var(--red-600) 12%, var(--surface));
+  border-color: color-mix(in srgb, var(--red-600) 30%, var(--border-subtle));
+}
+.char-gram-negative .char-icon { color: var(--red-600); }
+
+.char-gram-variable {
+  background: color-mix(in srgb, var(--orange-600) 12%, var(--surface));
+  border-color: color-mix(in srgb, var(--orange-600) 30%, var(--border-subtle));
+}
+.char-gram-variable .char-icon { color: var(--orange-600); }
+
+/* Morphology colors */
+.char-shape-coccus {
+  background: color-mix(in srgb, var(--cyan-600) 12%, var(--surface));
+  border-color: color-mix(in srgb, var(--cyan-600) 30%, var(--border-subtle));
+}
+.char-shape-coccus .char-icon { color: var(--cyan-600); }
+
+.char-shape-rod {
+  background: color-mix(in srgb, var(--green-600) 12%, var(--surface));
+  border-color: color-mix(in srgb, var(--green-600) 30%, var(--border-subtle));
+}
+.char-shape-rod .char-icon { color: var(--green-600); }
+
+.char-shape-coccobacillus {
+  background: color-mix(in srgb, var(--blue-600) 12%, var(--surface));
+  border-color: color-mix(in srgb, var(--blue-600) 30%, var(--border-subtle));
+}
+.char-shape-coccobacillus .char-icon { color: var(--blue-600); }
+
+.char-shape-spiral {
+  background: color-mix(in srgb, var(--magenta-600) 12%, var(--surface));
+  border-color: color-mix(in srgb, var(--magenta-600) 30%, var(--border-subtle));
+}
+.char-shape-spiral .char-icon { color: var(--magenta-600); }
+
+/* Oxygen requirement colors */
+.char-oxygen-aerobe {
+  background: color-mix(in srgb, var(--blue-600) 12%, var(--surface));
+  border-color: color-mix(in srgb, var(--blue-600) 30%, var(--border-subtle));
+}
+.char-oxygen-aerobe .char-icon { color: var(--blue-600); }
+
+.char-oxygen-anaerobe {
+  background: color-mix(in srgb, var(--orange-600) 12%, var(--surface));
+  border-color: color-mix(in srgb, var(--orange-600) 30%, var(--border-subtle));
+}
+.char-oxygen-anaerobe .char-icon { color: var(--orange-600); }
+
+.char-oxygen-facultative {
+  background: color-mix(in srgb, var(--yellow-600) 12%, var(--surface));
+  border-color: color-mix(in srgb, var(--yellow-600) 30%, var(--border-subtle));
+}
+.char-oxygen-facultative .char-icon { color: var(--yellow-600); }
+
+.char-oxygen-microaerophile {
+  background: color-mix(in srgb, var(--cyan-600) 12%, var(--surface));
+  border-color: color-mix(in srgb, var(--cyan-600) 30%, var(--border-subtle));
+}
+.char-oxygen-microaerophile .char-icon { color: var(--cyan-600); }
+
+.char-oxygen-aerotolerant,
+.char-oxygen-unknown {
+  background: var(--bg-2);
+  border-color: var(--border-subtle);
+}
+.char-oxygen-aerotolerant .char-icon,
+.char-oxygen-unknown .char-icon { color: var(--tx-3); }
+
 @media (min-width: 640px) {
   .bacteria-header {
     padding: var(--space-6);
@@ -1049,15 +1155,93 @@ input, select {
   padding: var(--space-2) var(--space-4);
 }
 
+.group-item-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  text-decoration: none;
+  transition: all var(--fast);
+}
+
+.group-item-link:hover {
+  background: var(--primary);
+}
+
+.group-item-link:hover .group-name,
+.group-item-link:hover .group-arrow {
+  color: white;
+}
+
 .group-name {
   font-size: 0.875rem;
   font-weight: 500;
   color: var(--primary);
 }
 
+.group-arrow {
+  font-size: 0.875rem;
+  color: var(--primary);
+  opacity: 0.6;
+}
+
+/* Group Count Badge */
+.group-count-badge {
+  font-size: 0.75rem;
+  font-weight: 500;
+  background: var(--primary-bg);
+  color: var(--primary);
+  padding: var(--space-2) var(--space-3);
+  border-radius: var(--radius-sm);
+}
+
+/* Group Members List */
+.group-members-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  padding: var(--space-4);
+}
+
+.group-member-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  background: var(--bg-2);
+  border-radius: var(--radius-md);
+  padding: var(--space-4);
+  text-decoration: none;
+  transition: all var(--fast);
+}
+
+.group-member-card:hover {
+  background: var(--bg-3);
+}
+
+.member-info {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+
+.member-name {
+  font-size: 0.9375rem;
+  font-weight: 500;
+  font-style: italic;
+  color: var(--tx);
+}
+
+.member-code {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  color: var(--tx-3);
+}
+
 /* Tables - Mobile Card Layout */
 .resistance-table-empty,
-.breakpoints-table-empty {
+.breakpoints-table-empty,
+.breakpoints-no-results {
   padding: var(--space-8);
   text-align: center;
   color: var(--tx-3);
@@ -1326,6 +1510,78 @@ input, select {
   font-weight: 500;
 }
 
+/* ECOFF cells */
+.cell-ecoff {
+  color: var(--cyan-600);
+  background: color-mix(in srgb, var(--cyan-600) 10%, var(--surface));
+}
+
+.cell-ecoff::before {
+  content: 'ECOFF ';
+  font-size: 0.6875rem;
+  font-weight: 500;
+}
+
+/* Legend styles */
+.breakpoints-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-4);
+  padding: var(--space-4);
+  background: var(--bg-2);
+  border-radius: var(--radius-md);
+  font-size: 0.75rem;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.legend-s {
+  color: var(--success);
+  font-weight: 600;
+}
+
+.legend-r {
+  color: var(--danger);
+  font-weight: 600;
+}
+
+.legend-ecoff {
+  color: var(--cyan-600);
+  font-weight: 600;
+}
+
+.legend-text {
+  color: var(--tx-2);
+}
+
+.legend-unit {
+  font-family: var(--font-mono);
+  color: var(--tx-3);
+  background: var(--bg-3);
+  padding: 2px 6px;
+  border-radius: var(--radius-xs);
+}
+
+/* Results count */
+.breakpoints-count {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  font-size: 0.75rem;
+  color: var(--tx-3);
+}
+
+.clear-filters {
+  font-size: 0.75rem;
+  color: var(--primary);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
 .cell-dose {
   grid-column: 1 / -1;
   font-family: var(--font-mono);
@@ -1421,7 +1677,8 @@ input, select {
   }
 
   .cell-s::before,
-  .cell-r::before {
+  .cell-r::before,
+  .cell-ecoff::before {
     display: none;
   }
 

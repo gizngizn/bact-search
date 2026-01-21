@@ -23,6 +23,7 @@ components/
 ├── SearchResults.js        # Search results list
 ├── BacteriaCard.js         # Bacteria result card
 ├── BreakpointsTable.js     # Interactive breakpoints table (MIC/Disk tabs, filters)
+├── EcoffTable.js           # ECOFF table with MIC/Disk tabs
 ├── ResistanceTable.js      # Intrinsic resistance display
 └── ThemeToggle.js          # Dark/light mode toggle
 
@@ -35,7 +36,8 @@ data/
 ├── bacteria.json                        # 35,010 bacteria (species/genus only)
 ├── antimicrobials.json                  # 498 antimicrobial codes and names
 ├── intrinsic_resistant.json             # Intrinsic resistance records
-├── clinical_breakpoints_eucast2026.json # EUCAST 2026 breakpoints (907 entries)
+├── clinical_breakpoints.json            # EUCAST 2025 clinical breakpoints (22,730 entries)
+├── ecoffs.json                          # EUCAST 2025 ECOFFs (1,592 entries, 80 species)
 └── microorganisms_groups.json           # Organism group memberships
 
 scripts/
@@ -69,8 +71,22 @@ Breakpoints are defined at group level, not species level. Mapping in `lib/data.
 ```
 
 ### Clinical Breakpoints vs ECOFF
-- **Clinical breakpoints**: S≤ and R> values for treatment decisions (what this app uses)
-- **ECOFF**: Epidemiological cut-off for surveillance (not included)
+- **Clinical breakpoints**: S≤ and R> values for treatment decisions (group-level, e.g., Enterobacterales)
+- **ECOFF**: Epidemiological cut-off values distinguishing wild-type from non-wild-type (species-specific)
+
+### ECOFF Data Structure
+```json
+{
+  "guideline": "EUCAST 2025",
+  "type": "ECOFF",
+  "method": "MIC",
+  "mo": "B_ESCHR_COLI",
+  "ab": "AMC",
+  "breakpoint_S": 8,
+  "breakpoint_R": 8
+}
+```
+Note: ECOFF has S=R (single cutoff value). Values at or below indicate wild-type.
 
 ## Design System
 
@@ -148,3 +164,5 @@ Search bacteria by name.
 - Added dark mode support with system preference detection
 - BreakpointsTable has MIC/Disk tabs and category filtering
 - Font changed from Inter to Instrument Sans for distinctive look
+- Added bacteria characteristics (gram stain inferred from phylum, morphology from genus, oxygen tolerance from data)
+- Added ECOFF support (1,592 values for 80 species from EUCAST 2025, sourced from AMR package)
