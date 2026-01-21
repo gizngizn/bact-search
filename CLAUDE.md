@@ -1,47 +1,56 @@
-# Bacteria Search Project
+# Bacteria Search - Developer Guide
 
-A Next.js web application for searching bacteria and viewing their antimicrobial susceptibility data based on EUCAST 2026 clinical breakpoints.
+A Next.js web application for searching bacteria and viewing EUCAST antimicrobial susceptibility data.
 
 ## Tech Stack
 - **Framework**: Next.js 16 with App Router
 - **React**: Version 19
-- **Styling**: CSS with Flexoki color scheme, Inter font
+- **Styling**: Vanilla CSS with Flexoki color scheme, Instrument Sans font
 - **Data**: Static JSON files (no database)
 
 ## Project Structure
 ```
 app/
-├── page.js              # Home page with search
-├── layout.js            # Root layout
-├── globals.css          # Flexoki theme, all styles
-├── api/search/route.js  # Search API endpoint
-└── bacteria/[mo]/page.js # Bacteria detail page
+├── page.js                 # Home page with common pathogens
+├── layout.js               # Root layout with header search
+├── globals.css             # Flexoki theme, mobile-first styles
+├── api/search/route.js     # Search API endpoint
+└── bacteria/[mo]/page.js   # Bacteria detail page
 
 components/
-├── SearchBar.js         # Autocomplete search component
-└── BreakpointsTable.js  # Interactive breakpoints table (tabs, filters)
+├── HeaderSearch.js         # Header search with autocomplete dropdown
+├── SearchBar.js            # Standalone search input
+├── SearchResults.js        # Search results list
+├── BacteriaCard.js         # Bacteria result card
+├── BreakpointsTable.js     # Interactive breakpoints table (MIC/Disk tabs, filters)
+├── ResistanceTable.js      # Intrinsic resistance display
+└── ThemeToggle.js          # Dark/light mode toggle
 
 lib/
-└── data.js              # Data loading, organism group mapping
+├── data.js                 # Data loading, caching, organism group mapping
+├── search.js               # Search algorithm with relevancy scoring
+└── bacteria.js             # Stats and common bacteria utilities
 
 data/
-├── bacteria.json                        # Bacteria list with taxonomy
-├── antimicrobials.json                  # Antimicrobial codes and names
-├── intrinsic_resistant.json             # Intrinsic resistance data
+├── bacteria.json                        # 35,010 bacteria (species/genus only)
+├── antimicrobials.json                  # 498 antimicrobial codes and names
+├── intrinsic_resistant.json             # Intrinsic resistance records
 ├── clinical_breakpoints_eucast2026.json # EUCAST 2026 breakpoints (907 entries)
-└── microorganisms_groups.json           # Organism groupings
+└── microorganisms_groups.json           # Organism group memberships
 
 scripts/
+├── prepare-data.js        # Filter source JSON files
 └── parse_eucast_excel.py  # Parser for EUCAST Excel breakpoint tables
 ```
 
 ## Key Concepts
 
 ### EUCAST Organism Groups
-Breakpoints are defined at group level, not species level. The mapping in `lib/data.js`:
+Breakpoints are defined at group level, not species level. Mapping in `lib/data.js`:
 - E. coli, Klebsiella, Salmonella → "Enterobacterales"
 - S. aureus → "Staphylococcus spp."
 - P. aeruginosa → "Pseudomonas aeruginosa"
+- Enterococcus → "Enterococcus spp."
 
 ### Breakpoint Data Structure
 ```json
@@ -51,25 +60,43 @@ Breakpoints are defined at group level, not species level. The mapping in `lib/d
   "antimicrobial": "Cefotaxime",
   "ab": "CTX",
   "category": "Cephalosporins",
-  "method": "MIC",           // or "DISK"
-  "breakpoint_S": 1.0,       // Susceptible ≤
-  "breakpoint_R": 2.0,       // Resistant >
-  "unit": "mg/L",            // or "mm" for disk
-  "indication": "non-meningitis"  // null, "UTI", "meningitis", etc.
+  "method": "MIC",
+  "breakpoint_S": 1.0,
+  "breakpoint_R": 2.0,
+  "unit": "mg/L",
+  "indication": "non-meningitis"
 }
 ```
 
 ### Clinical Breakpoints vs ECOFF
-- **Clinical breakpoints**: S≤ and R> values for treatment decisions (what we use)
-- **ECOFF**: Epidemiological cut-off for surveillance (not for treatment)
+- **Clinical breakpoints**: S≤ and R> values for treatment decisions (what this app uses)
+- **ECOFF**: Epidemiological cut-off for surveillance (not included)
 
-## Design System (Flexoki)
-CSS variables in globals.css:
-- `--paper`: #FFFCF0 (background)
-- `--cyan-600`: #24837B (primary/links)
-- `--green-600`: #66800B (susceptible values)
-- `--red-600`: #AF3029 (resistant values)
-- `--font`: Inter
+## Design System
+
+### Flexoki Color Palette
+```css
+--paper: #FFFCF0        /* Light background */
+--black: #100F0F        /* Dark background */
+--cyan-600: #24837B     /* Primary (light mode) */
+--cyan-400: #3AA99F     /* Primary (dark mode) */
+--green-600: #66800B    /* Susceptible values */
+--red-600: #AF3029      /* Resistant values */
+```
+
+### Typography
+- **Font**: Instrument Sans (display + body)
+- **Monospace**: System UI monospace for data values
+
+### Responsive Breakpoints
+- Base: 320px (phones)
+- 480px: 2-column grids
+- 640px: Tablet adjustments
+- 768px: Desktop tables (cards → traditional table layout)
+
+### Touch Targets
+- Minimum: 44px height for all interactive elements
+- Large: 52px for primary actions (search input)
 
 ## Common Tasks
 
@@ -78,19 +105,46 @@ CSS variables in globals.css:
 npm run dev
 ```
 
-### Update Breakpoint Data
-1. Get new EUCAST Excel file
+### Regenerate Data Files
+```bash
+node scripts/prepare-data.js
+```
+
+### Update EUCAST Breakpoints
+1. Download new EUCAST Excel file
 2. Update path in `scripts/parse_eucast_excel.py`
 3. Run: `python scripts/parse_eucast_excel.py`
-4. Output goes to `data/clinical_breakpoints_eucast2026.json`
 
 ### Add New Organism Group Mapping
 Edit `getOrganismGroupForBacterium()` in `lib/data.js`
 
 ## API Endpoints
-- `GET /api/search?q=<query>` - Search bacteria by name (returns top 10 matches)
 
-## Session History
-- Converted from old AMR package data to EUCAST 2026 Excel tables
-- Added interactive BreakpointsTable with MIC/Disk tabs and filtering
-- Implemented Flexoki color scheme and Inter font
+### GET /api/search
+Search bacteria by name.
+
+**Parameters:**
+- `q` (required): Search query
+- `limit` (optional): Max results (default: 50, max: 100)
+
+**Response:**
+```json
+[
+  {
+    "mo": "B_ESCHR_COLI",
+    "fullname": "Escherichia coli",
+    "rank": "species",
+    "genus": "Escherichia",
+    "family": "Enterobacteriaceae",
+    "prevalence": 1,
+    "relevancy": { "level": "high", "label": "Very Common" }
+  }
+]
+```
+
+## Session Notes
+- Started with AMR package data, converted to EUCAST 2026 Excel tables
+- Implemented mobile-first responsive design with Flexoki colors
+- Added dark mode support with system preference detection
+- BreakpointsTable has MIC/Disk tabs and category filtering
+- Font changed from Inter to Instrument Sans for distinctive look

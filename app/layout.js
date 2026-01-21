@@ -1,5 +1,6 @@
 import "./globals.css";
 import ThemeToggle from "../components/ThemeToggle";
+import HeaderSearch from "../components/HeaderSearch";
 
 export const metadata = {
   title: "Bacteria Search - EUCAST Data",
@@ -24,19 +25,24 @@ export default function RootLayout({ children }) {
       </head>
       <body>
         <header className="app-header">
-          <div className="header-content">
-            <div className="header-left">
-              <a href="/" className="logo">Bacteria Search</a>
-              <span className="subtitle">EUCAST Antimicrobial Resistance Data</span>
-            </div>
+          <div className="header-container">
+            <a href="/" className="header-brand">
+              <span className="header-logo">Bacteria Search</span>
+              <span className="header-tagline">EUCAST 2026</span>
+            </a>
+            <HeaderSearch />
             <ThemeToggle />
           </div>
         </header>
         <main className="app-main">
-          {children}
+          <div className="main-container">
+            {children}
+          </div>
         </main>
         <footer className="app-footer">
-          <p>Data source: EUCAST 2026</p>
+          <div className="footer-container">
+            <p>Data source: EUCAST Clinical Breakpoint Tables v16.0</p>
+          </div>
         </footer>
       </body>
     </html>

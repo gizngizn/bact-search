@@ -168,14 +168,14 @@ export default function BreakpointsTable({ breakpoints }) {
               {groupedBreakpoints.map(([groupName, items]) => (
                 items.map((bp, idx) => (
                   <tr key={`${bp.ab}-${bp.indication || 'default'}-${idx}`} className="breakpoint-row">
-                    {idx === 0 && (
-                      <td rowSpan={items.length} className="cell-group">
-                        <span className="group-label">{groupName}</span>
-                      </td>
-                    )}
-                    <td className="cell-antimicrobial">
-                      <span className="antimicrobial-name">{bp.antimicrobialName}</span>
-                      <span className="antimicrobial-code">{bp.ab}</span>
+                    <td className="cell-group">
+                      <span className="group-label">{idx === 0 ? groupName : ''}</span>
+                    </td>
+                    <td>
+                      <div className="cell-antimicrobial">
+                        <span className="antimicrobial-name">{bp.antimicrobialName}</span>
+                        <span className="antimicrobial-code">{bp.ab}</span>
+                      </div>
                     </td>
                     {activeTab === 'DISK' && (
                       <td className="cell-dose">{bp.disk_dose || '—'}</td>

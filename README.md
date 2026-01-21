@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Bacteria Search
+
+A mobile-first web application for searching bacteria and viewing antimicrobial resistance data from EUCAST Clinical Breakpoint Tables.
+
+## Features
+
+- **Search**: Find bacteria by name with instant results
+- **Clinical Breakpoints**: View MIC and disk diffusion breakpoints for antimicrobial susceptibility testing
+- **Intrinsic Resistance**: See which antimicrobials a bacterium is naturally resistant to
+- **Taxonomy**: Browse full taxonomic classification
+- **Dark Mode**: Automatic dark/light theme based on system preference
+- **Mobile-First**: Optimized for phones, tablets, and desktops
+
+## Tech Stack
+
+- **Framework**: Next.js 16 (App Router)
+- **Styling**: Vanilla CSS with Flexoki color scheme
+- **Typography**: Instrument Sans
+- **Data**: Static JSON files (no database required)
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Data Sources
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Bacteria**: 35,010 species and genera from the AMR package
+- **Breakpoints**: EUCAST Clinical Breakpoint Tables v16.0 (2026)
+- **Antimicrobials**: 498 antimicrobial agents
 
-## Learn More
+## Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+```
+app/
+├── page.js                 # Home page
+├── layout.js               # App shell (header, footer)
+├── globals.css             # All styles (Flexoki theme)
+├── api/search/route.js     # Search API
+└── bacteria/[mo]/page.js   # Bacteria detail page
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+components/
+├── HeaderSearch.js         # Header search with dropdown
+├── SearchBar.js            # Main search input
+├── SearchResults.js        # Search results list
+├── BacteriaCard.js         # Result card component
+├── BreakpointsTable.js     # Interactive breakpoints table
+├── ResistanceTable.js      # Intrinsic resistance table
+└── ThemeToggle.js          # Dark/light mode toggle
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+lib/
+├── data.js                 # Data loading & organism group mapping
+├── search.js               # Search logic
+└── bacteria.js             # Bacteria utilities
 
-## Deploy on Vercel
+data/
+├── bacteria.json           # Filtered bacteria (species/genus)
+├── antimicrobials.json     # Antimicrobial codes and names
+├── intrinsic_resistant.json
+├── clinical_breakpoints_eucast2026.json
+└── microorganisms_groups.json
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Data sourced from EUCAST (European Committee on Antimicrobial Susceptibility Testing).
