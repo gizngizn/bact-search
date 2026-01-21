@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <!-- Main cell body -->
+  <ellipse cx="16" cy="16" rx="10" ry="7" fill="#24837B"/>
+
+  <!-- Flagella -->
+  <path d="M6 16 Q2 12 4 8" stroke="#24837B" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <path d="M6 16 Q1 16 2 20" stroke="#24837B" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Pili/fimbriae -->
+  <line x1="26" y1="14" x2="29" y2="12" stroke="#24837B" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="26" y1="16" x2="30" y2="16" stroke="#24837B" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="26" y1="18" x2="29" y2="20" stroke="#24837B" stroke-width="1.2" stroke-linecap="round"/>
+
+  <!-- Internal details -->
+  <ellipse cx="12" cy="15" rx="2" ry="1.5" fill="#1a615a" opacity="0.5"/>
+  <ellipse cx="18" cy="17" rx="1.5" ry="1" fill="#1a615a" opacity="0.5"/>
+</svg>
